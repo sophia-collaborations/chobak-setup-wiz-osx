@@ -3,6 +3,7 @@ use strict;
 
 sub verifmul {
   my $lc_each;
+  my $lc_loc;
   foreach $lc_each (@_)
   {
     $lc_loc = `which $lc_each`; chomp($lc_loc);
